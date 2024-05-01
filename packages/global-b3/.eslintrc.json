@@ -1,0 +1,9 @@
+{
+  "extends": ["b2b"],
+  "overrides": [
+    {
+      "files": ["**/**/*.ts"],
+      "rules": { "@typescript-eslint/no-explicit-any": 0 }
+    }
+  ]
+}
